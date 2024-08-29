@@ -1,0 +1,7 @@
+const express = require("express");
+const { fetchAllTopics } = require("../controllers/topicsController");
+const router = express.Router();
+
+router.get("/topics", fetchAllTopics);
+
+module.exports = router;

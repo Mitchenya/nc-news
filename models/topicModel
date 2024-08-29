@@ -1,4 +1,4 @@
-module.exports = [
+const topics = [
   {
     description: "The man, the Mitch, the legend",
     slug: "mitch",
@@ -12,3 +12,9 @@ module.exports = [
     slug: "paper",
   },
 ];
+
+const getAllTopics = () => {
+  return topics;
+};
+
+module.exports = { getAllTopics };
