@@ -1,15 +1,15 @@
 const express = require("express");
-const topicsRouter = require("./routes/topics");
 const app = express();
+const { getTopics } = require("./controllers/topics.controller");
+const { serverErrorHandler } = require("./error");
+const { getEndPoints } = require("./controllers/api.controller");
 
-app.use("/api", topicsRouter);
+app.get("/api/topics", getTopics);
+app.get("/api", getEndPoints);
 
-app.use((err, req, res, next) => {
-  res.status(500).json({ error: "Internal Server Error" });
+app.all("/*", (req, res) => {
+  res.status(404).send({ message: "Route not found" });
 });
-
-app.use((req, res, next) => {
-  res.status(404).json({ error: "Not Found" });
-});
+app.use(serverErrorHandler);
 
 module.exports = app;
