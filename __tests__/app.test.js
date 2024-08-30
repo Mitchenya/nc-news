@@ -119,17 +119,6 @@ describe("/api/articles", () => {
   });
 });
 
-test("No article should have a body property", () => {
-  return request(app)
-    .get("/api/articles")
-    .expect(200)
-    .then(({ body: { articles } }) => {
-      articles.forEach((article) => {
-        expect(article).not.toHaveProperty("body");
-      });
-    });
-});
-
 test("Articles should not contain a 'body' property", () => {
   return request(app)
     .get("/api/articles")
