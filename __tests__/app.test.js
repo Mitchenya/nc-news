@@ -88,3 +88,82 @@ describe("/api/articles/:article_id", () => {
       });
   });
 });
+
+describe("/api/articles", () => {
+  test("Responds with an array of articles containing all expected entries", () => {
+    return request(app)
+      .get("/api/articles")
+      .expect(200)
+      .then(({ body: { articles } }) => {
+        expect(articles).toHaveLength(13);
+      });
+  });
+
+  test("Each article should have the correct structure with necessary properties", () => {
+    return request(app)
+      .get("/api/articles")
+      .expect(200)
+      .then(({ body: { articles } }) => {
+        articles.forEach((article) => {
+          expect(article).toMatchObject({
+            author: expect.any(String),
+            title: expect.any(String),
+            article_id: expect.any(Number),
+            topic: expect.any(String),
+            created_at: expect.any(String),
+            votes: expect.any(Number),
+            article_img_url: expect.any(String),
+          });
+        });
+      });
+  });
+});
+
+test("No article should have a body property", () => {
+  return request(app)
+    .get("/api/articles")
+    .expect(200)
+    .then(({ body: { articles } }) => {
+      articles.forEach((article) => {
+        expect(article).not.toHaveProperty("body");
+      });
+    });
+});
+
+test("Articles should not contain a 'body' property", () => {
+  return request(app)
+    .get("/api/articles")
+    .expect(200)
+    .then(({ body: { articles } }) => {
+      articles.forEach((article) => {
+        expect(article).not.toHaveProperty("body");
+      });
+    });
+});
+
+test("Each article should have a 'comment_count' property that accurately reflects the number of related comments", () => {
+  return request(app)
+    .get("/api/articles")
+    .expect(200)
+    .then(({ body: { articles } }) => {
+      const comments = require("../db/data/test-data/comments");
+      articles.forEach((article) => {
+        const relatedComments = comments.filter(
+          (comment) => comment.article_id === article.article_id
+        );
+        expect(Number(article.comment_count)).toBe(relatedComments.length); // Convert to number here
+      });
+    });
+});
+
+test("Articles should be sorted by 'created_at' in descending order", () => {
+  return request(app)
+    .get("/api/articles")
+    .expect(200)
+    .then(({ body: { articles } }) => {
+      const sortedArticles = [...articles].sort(
+        (a, b) => new Date(b.created_at) - new Date(a.created_at)
+      );
+      expect(articles).toEqual(sortedArticles);
+    });
+});
