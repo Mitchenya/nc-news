@@ -1,0 +1,462 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/mitchenya/.nvm/v0.8.28/bin/node',
+1 verbose cli   '/Users/mitchenya/.nvm/v0.8.28/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.28
+4 verbose read json /Users/mitchenya/northcoders/be-nc-news/package.json
+5 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-runtime/package.json
+6 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-matcher-utils/package.json
+7 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/callsites/package.json
+8 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/fast-safe-stringify/package.json
+9 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/test-exclude/package.json
+10 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/formidable/package.json
+11 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/bser/package.json
+12 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pg-int8/package.json
+13 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-docblock/package.json
+14 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/define-data-property/package.json
+15 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/sqlstring/package.json
+16 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/destroy/package.json
+17 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jsesc/package.json
+18 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pirates/package.json
+19 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@types/package.json
+20 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/globals/package.json
+21 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cli-table/package.json
+22 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/lodash/package.json
+23 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/diff-sequences/package.json
+24 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/detect-newline/package.json
+25 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/browserslist/package.json
+26 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/istanbul-lib-source-maps/package.json
+27 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/process-nextick-args/package.json
+28 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/shebang-regex/package.json
+29 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/hexoid/package.json
+30 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/path-is-absolute/package.json
+31 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/asap/package.json
+32 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/json-parse-even-better-errors/package.json
+33 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/stack-utils/package.json
+34 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/supports-hyperlinks/package.json
+35 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-worker/package.json
+36 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@tootallnate/package.json
+37 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/has-property-descriptors/package.json
+38 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/MD5/package.json
+39 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/toidentifier/package.json
+40 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/typedarray-to-buffer/package.json
+41 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/make-dir/package.json
+42 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/mimic-fn/package.json
+43 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/strip-ansi/package.json
+44 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/content-type/package.json
+45 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/react-is/package.json
+46 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pkg-dir/package.json
+47 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-extended/package.json
+48 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/istanbul-reports/package.json
+49 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/import-local/package.json
+50 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/es-errors/package.json
+51 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/has-proto/package.json
+52 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/agent-base/package.json
+53 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/makeerror/package.json
+54 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/ms/package.json
+55 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/strip-final-newline/package.json
+56 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/content-disposition/package.json
+57 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/call-bind/package.json
+58 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/methods/package.json
+59 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/prelude-ls/package.json
+60 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@jest/package.json
+61 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/node-releases/package.json
+62 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/dotenv/package.json
+63 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/wordwrap/package.json
+64 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/escape-string-regexp/package.json
+65 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cssstyle/package.json
+66 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/strip-json-comments/package.json
+67 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/lru-cache/package.json
+68 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/imurmurhash/package.json
+69 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/tmpl/package.json
+70 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/type-fest/package.json
+71 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/punycode/package.json
+72 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/require-directory/package.json
+73 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/proxy-addr/package.json
+74 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/depd/package.json
+75 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/core-util-is/package.json
+76 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/ci-info/package.json
+77 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/rimraf/package.json
+78 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/escalade/package.json
+79 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/range-parser/package.json
+80 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/fast-json-stable-stringify/package.json
+81 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/error-ex/package.json
+82 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/balanced-match/package.json
+83 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/path-exists/package.json
+84 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/resolve/package.json
+85 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/bytes/package.json
+86 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pg-protocol/package.json
+87 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/char-regex/package.json
+88 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-cli/package.json
+89 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/html-encoding-sniffer/package.json
+90 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/decimal.js/package.json
+91 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/parse-json/package.json
+92 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cjs-module-lexer/package.json
+93 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/supertest/package.json
+94 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/acorn/package.json
+95 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/is-potential-custom-element-name/package.json
+96 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/underscore.string/package.json
+97 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/express/package.json
+98 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/encodeurl/package.json
+99 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/signal-exit/package.json
+100 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/wrap-ansi/package.json
+101 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/y18n/package.json
+102 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/once/package.json
+103 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/gensync/package.json
+104 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/babel-plugin-istanbul/package.json
+105 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-circus/package.json
+106 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/crypt/package.json
+107 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/sisteransi/package.json
+108 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/v8-to-istanbul/package.json
+109 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/string_decoder/package.json
+110 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/emittery/package.json
+111 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/nwsapi/package.json
+112 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/merge-descriptors/package.json
+113 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/array-flatten/package.json
+114 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/argparse/package.json
+115 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/picomatch/package.json
+116 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/safe-buffer/package.json
+117 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/write-file-atomic/package.json
+118 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/function-bind/package.json
+119 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/npm-run-path/package.json
+120 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/string-length/package.json
+121 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/leven/package.json
+122 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/source-map-support/package.json
+123 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/acorn-globals/package.json
+124 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/ee-first/package.json
+125 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/is-fullwidth-code-point/package.json
+126 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@ampproject/package.json
+127 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/co/package.json
+128 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/querystringify/package.json
+129 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/yargs-parser/package.json
+130 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cycle/package.json
+131 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/inherits/package.json
+132 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/psl/package.json
+133 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/iconv-lite/package.json
+134 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/postgres-interval/package.json
+135 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/anymatch/package.json
+136 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/color-name/package.json
+137 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/es-define-property/package.json
+138 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/stack-trace/package.json
+139 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pg-pool/package.json
+140 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/async/package.json
+141 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pg-cloudflare/package.json
+142 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/p-locate/package.json
+143 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/fresh/package.json
+144 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/get-intrinsic/package.json
+145 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/requires-port/package.json
+146 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/abab/package.json
+147 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/babel-jest/package.json
+148 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/qs/package.json
+149 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/js-yaml/package.json
+150 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/whatwg-url/package.json
+151 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/domexception/package.json
+152 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/combined-stream/package.json
+153 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/path-to-regexp/package.json
+154 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/hasown/package.json
+155 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/safer-buffer/package.json
+156 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/deepmerge/package.json
+157 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/p-limit/package.json
+158 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-resolve/package.json
+159 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/mime-types/package.json
+160 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/bignumber.js/package.json
+161 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/strip-bom/package.json
+162 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/webidl-conversions/package.json
+163 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/is-typedarray/package.json
+164 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/natural-compare/package.json
+165 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/postgres-date/package.json
+166 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/superagent/package.json
+167 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-watcher/package.json
+168 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/type-is/package.json
+169 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/xml-name-validator/package.json
+170 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/yaml-config/package.json
+171 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-sorted/package.json
+172 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/throat/package.json
+173 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/psql/package.json
+174 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/underscore/package.json
+175 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/is-stream/package.json
+176 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/xtend/package.json
+177 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/split2/package.json
+178 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/universalify/package.json
+179 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pg-format/package.json
+180 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/onetime/package.json
+181 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/node-int64/package.json
+182 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/esutils/package.json
+183 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/find-up/package.json
+184 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/chalk/package.json
+185 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/ansi-regex/package.json
+186 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/babel-preset-jest/package.json
+187 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/esprima/package.json
+188 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/has-flag/package.json
+189 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/supports-color/package.json
+190 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/html-escaper/package.json
+191 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/vary/package.json
+192 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/supports-preserve-symlinks-flag/package.json
+193 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/color-convert/package.json
+194 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/path-key/package.json
+195 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/merge-stream/package.json
+196 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-serializer/package.json
+197 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/istanbul-lib-report/package.json
+198 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/unpipe/package.json
+199 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/node-uuid/package.json
+200 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/resolve-cwd/package.json
+201 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/brace-expansion/package.json
+202 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/fill-range/package.json
+203 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jsdom/package.json
+204 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pg/package.json
+205 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/get-caller-file/package.json
+206 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/util-deprecate/package.json
+207 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/word-wrap/package.json
+208 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-runner/package.json
+209 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/saxes/package.json
+210 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/path-parse/package.json
+211 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/has-symbols/package.json
+212 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/picocolors/package.json
+213 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/slash/package.json
+214 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/raw-body/package.json
+215 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-leak-detector/package.json
+216 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/lines-and-columns/package.json
+217 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/semver/package.json
+218 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/istanbul-lib-coverage/package.json
+219 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/http-errors/package.json
+220 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cryptiles/package.json
+221 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cookie-jar/package.json
+222 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/minimatch/package.json
+223 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/accepts/package.json
+224 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-haste-map/package.json
+225 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/estraverse/package.json
+226 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/ansi-styles/package.json
+227 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/is-core-module/package.json
+228 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cookie-signature/package.json
+229 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/forwarded/package.json
+230 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/js-tokens/package.json
+231 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/colors/package.json
+232 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/xmlchars/package.json
+233 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/negotiator/package.json
+234 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/body-parser/package.json
+235 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/resolve.exports/package.json
+236 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/tr46/package.json
+237 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@babel/package.json
+238 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/data-urls/package.json
+239 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/w3c-hr-time/package.json
+240 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/is-number/package.json
+241 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/fs.realpath/package.json
+242 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-environment-node/package.json
+243 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/levn/package.json
+244 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-util/package.json
+245 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/url-parse/package.json
+246 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/mysql/package.json
+247 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-get-type/package.json
+248 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/dezalgo/package.json
+249 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/utils-merge/package.json
+250 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/side-channel/package.json
+251 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/concat-map/package.json
+252 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/get-package-type/package.json
+253 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/collect-v8-coverage/package.json
+254 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/whatwg-encoding/package.json
+255 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/json5/package.json
+256 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/get-stream/package.json
+257 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/update-browserslist-db/package.json
+258 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/sprintf-js/package.json
+259 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/set-function-length/package.json
+260 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cookiejar/package.json
+261 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/serve-static/package.json
+262 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/browser-process-hrtime/package.json
+263 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/forever-agent/package.json
+264 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cssom/package.json
+265 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/optionator/package.json
+266 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/convert-source-map/package.json
+267 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/is-arrayish/package.json
+268 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pg-types/package.json
+269 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/charenc/package.json
+270 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/prompts/package.json
+271 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cliui/package.json
+272 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/whatwg-mimetype/package.json
+273 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/form-data/package.json
+274 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/boom/package.json
+275 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/delayed-stream/package.json
+276 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-snapshot/package.json
+277 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/exit/package.json
+278 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cross-spawn/package.json
+279 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/ansi-escapes/package.json
+280 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/istanbul-lib-instrument/package.json
+281 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/log/package.json
+282 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/mime/package.json
+283 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-message-util/package.json
+284 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/request/package.json
+285 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-validate/package.json
+286 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/yargs/package.json
+287 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/is-generator-fn/package.json
+288 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/asynckit/package.json
+289 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/ipaddr.js/package.json
+290 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/glob/package.json
+291 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/has/package.json
+292 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/cookie/package.json
+293 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/fast-levenshtein/package.json
+294 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/husky/package.json
+295 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/to-regex-range/package.json
+296 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@sinonjs/package.json
+297 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/hawk/package.json
+298 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/source-map/package.json
+299 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pretty-format/package.json
+300 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-each/package.json
+301 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-mock/package.json
+302 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/escodegen/package.json
+303 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/gopd/package.json
+304 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/escape-html/package.json
+305 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/statuses/package.json
+306 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/https-proxy-agent/package.json
+307 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/babel-plugin-jest-hoist/package.json
+308 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-pnp-resolver/package.json
+309 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/string-width/package.json
+310 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/aws-sign/package.json
+311 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/symbol-tree/package.json
+312 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/type-detect/package.json
+313 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/execa/package.json
+314 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/yallist/package.json
+315 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pg-connection-string/package.json
+316 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/parseurl/package.json
+317 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@jridgewell/package.json
+318 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/etag/package.json
+319 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/terminal-link/package.json
+320 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/p-try/package.json
+321 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@istanbuljs/package.json
+322 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/component-emitter/package.json
+323 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/camelcase/package.json
+324 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/isarray/package.json
+325 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/micromatch/package.json
+326 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/wrappy/package.json
+327 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/http-proxy-agent/package.json
+328 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/json-stringify-safe/package.json
+329 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/resolve-from/package.json
+330 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-changed-files/package.json
+331 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/send/package.json
+332 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/w3c-xmlserializer/package.json
+333 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/finalhandler/package.json
+334 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/parse5/package.json
+335 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@bcoe/package.json
+336 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/eyes/package.json
+337 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-jasmine2/package.json
+338 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/hoek/package.json
+339 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/caniuse-lite/package.json
+340 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/@hapi/package.json
+341 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/deep-is/package.json
+342 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/tough-cookie/package.json
+343 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/kleur/package.json
+344 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/buffer-from/package.json
+345 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/q/package.json
+346 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/braces/package.json
+347 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/oauth-sign/package.json
+348 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/which/package.json
+349 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/sntp/package.json
+350 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/emoji-regex/package.json
+351 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/object-inspect/package.json
+352 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/tunnel-agent/package.json
+353 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/readable-stream/package.json
+354 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/dedent/package.json
+355 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/type-check/package.json
+356 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/locate-path/package.json
+357 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/graceful-fs/package.json
+358 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/winston/package.json
+359 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/on-finished/package.json
+360 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-diff/package.json
+361 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/walker/package.json
+362 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-resolve-dependencies/package.json
+363 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/to-fast-properties/package.json
+364 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/postgres-array/package.json
+365 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/human-signals/package.json
+366 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/normalize-path/package.json
+367 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/fsevents/package.json
+368 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/babel-preset-current-node-syntax/package.json
+369 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/ws/package.json
+370 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/postgres-bytea/package.json
+371 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/shebang-command/package.json
+372 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-config/package.json
+373 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/electron-to-chromium/package.json
+374 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-regex-util/package.json
+375 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pkginfo/package.json
+376 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest-environment-jsdom/package.json
+377 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/acorn-walk/package.json
+378 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/debug/package.json
+379 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/pgpass/package.json
+380 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/media-typer/package.json
+381 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/mime-db/package.json
+382 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/isexe/package.json
+383 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/jest/package.json
+384 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/inflight/package.json
+385 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/expect/package.json
+386 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/fb-watchman/package.json
+387 verbose read json /Users/mitchenya/northcoders/be-nc-news/node_modules/setprototypeof/package.json
+388 warn package.json jest-runtime@27.5.1 No readme data.
+389 warn package.json jest-resolve@27.5.1 No readme data.
+390 warn package.json jest-watcher@27.5.1 No readme data.
+391 warn package.json psql@0.0.1 No repository field.
+392 warn package.json psql@0.0.1 No readme data.
+393 warn package.json jest-runner@27.5.1 No readme data.
+394 warn package.json cookie-jar@0.2.0 No readme data.
+395 warn package.json jest-haste-map@27.5.1 No readme data.
+396 warn package.json jest-environment-node@27.5.1 No readme data.
+397 warn package.json jest-util@27.5.1 No readme data.
+398 warn package.json jest-get-type@27.5.1 No readme data.
+399 warn package.json forever-agent@0.2.0 No readme data.
+400 warn package.json jest-snapshot@27.5.1 No readme data.
+401 warn package.json jest-message-util@27.5.1 No readme data.
+402 warn package.json aws-sign@0.2.0 No readme data.
+403 warn package.json jest-jasmine2@27.5.1 No readme data.
+404 warn package.json oauth-sign@0.2.0 No readme data.
+405 warn package.json tunnel-agent@0.2.0 No readme data.
+406 warn package.json jest-resolve-dependencies@27.5.1 No readme data.
+407 warn package.json jest-config@27.5.1 No readme data.
+408 warn package.json jest-regex-util@27.5.1 No readme data.
+409 warn package.json jest-environment-jsdom@27.5.1 No readme data.
+410 warn package.json yaml-config@0.3.0 No repository field.
+411 warn package.json log@1.4.0 No repository field.
+412 warn package.json eyes@0.1.8 No repository field.
+413 verbose from cache /Users/mitchenya/northcoders/be-nc-news/package.json
+414 verbose readDependencies using package.json deps
+415 verbose cache add [ 'node', null ]
+416 verbose cache add name=undefined spec="node" args=["node",null]
+417 verbose parsed url { pathname: 'node', path: 'node', href: 'node' }
+418 silly lockFile f8e966d1-node node
+419 verbose lock node /Users/mitchenya/.npm/f8e966d1-node.lock
+420 silly lockFile f8e966d1-node node
+421 silly lockFile f8e966d1-node node
+422 verbose addNamed [ 'node', '' ]
+423 verbose addNamed [ null, '' ]
+424 silly lockFile bccd7aa1-node node@
+425 verbose lock node@ /Users/mitchenya/.npm/bccd7aa1-node.lock
+426 silly addNameRange { name: 'node', range: '', hasData: false }
+427 verbose url raw node
+428 verbose url resolving [ 'https://registry.npmjs.org/', './node' ]
+429 verbose url resolved https://registry.npmjs.org/node
+430 info trying registry request attempt 1 at 12:04:38
+431 http GET https://registry.npmjs.org/node
+432 info retry will retry, error on last attempt: Error: 8601072192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+433 info trying registry request attempt 2 at 12:04:49
+434 http GET https://registry.npmjs.org/node
+435 info retry will retry, error on last attempt: Error: 8601072192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+436 info trying registry request attempt 3 at 12:05:49
+437 http GET https://registry.npmjs.org/node
+438 silly lockFile bccd7aa1-node node@
+439 silly lockFile bccd7aa1-node node@
+440 error Error: 8601072192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+440 error
+440 error     at CleartextStream._puller (tls.js:670:24)
+440 error     at CleartextStream.CryptoStream._pull (tls.js:604:19)
+440 error     at SecurePair.cycle (tls.js:894:20)
+440 error     at EncryptedStream.CryptoStream.write (tls.js:285:13)
+440 error     at Socket.ondata (stream.js:38:26)
+440 error     at Socket.EventEmitter.emit (events.js:96:17)
+440 error     at TCP.onread (net.js:397:14)
+441 error If you need help, you may report this log at:
+441 error     <http://github.com/isaacs/npm/issues>
+441 error or email it to:
+441 error     <npm-@googlegroups.com>
+442 error System Darwin 23.6.0
+443 error command "/Users/mitchenya/.nvm/v0.8.28/bin/node" "/Users/mitchenya/.nvm/v0.8.28/bin/npm" "install" "node"
+444 error cwd /Users/mitchenya/northcoders/be-nc-news
+445 error node -v v0.8.28
+446 error npm -v 1.2.30
+447 verbose exit [ 1, true ]
