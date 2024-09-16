@@ -36,7 +36,12 @@ app.post("/api/articles/:article_id/comments", postComment);
 app.delete("/api/comments/:comment_id", deleteCommentByCommentId);
 app.get("/api/users", getUsers);
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "http://localhost:3000",
+  })
+);
+
 app.use(customErrorHandler);
 app.use(idErrorHandler);
 app.use(reqBodyErrorHandler);
