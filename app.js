@@ -3,7 +3,6 @@ const app = express();
 const cors = require("cors");
 const { getTopics } = require("./controllers/topics.controller");
 const { getEndPoints } = require("./controllers/api.controller");
-
 const {
   getArticleById,
   getArticles,
@@ -24,6 +23,11 @@ const {
   queryInputErrorHandler,
 } = require("./error");
 
+const corsOptions = {
+  origin: process.env.CORS_ORIGIN || "http://localhost:3000",
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get("/api", getEndPoints);
@@ -36,20 +40,16 @@ app.post("/api/articles/:article_id/comments", postComment);
 app.delete("/api/comments/:comment_id", deleteCommentByCommentId);
 app.get("/api/users", getUsers);
 
-app.use(
-  cors({
-    origin: "http://localhost:3000",
-  })
-);
-
 app.use(customErrorHandler);
 app.use(idErrorHandler);
 app.use(reqBodyErrorHandler);
 app.use(userErrorHandler);
 app.use(queryInputErrorHandler);
+
 app.all("/*", (req, res) => {
   res.status(404).send({ message: "Route not found" });
 });
+
 app.use(serverErrorHandler);
 
 module.exports = app;
