@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 const { getTopics } = require("./controllers/topics.controller");
 const { getEndPoints } = require("./controllers/api.controller");
 
@@ -35,6 +36,7 @@ app.post("/api/articles/:article_id/comments", postComment);
 app.delete("/api/comments/:comment_id", deleteCommentByCommentId);
 app.get("/api/users", getUsers);
 
+app.use(cors());
 app.use(customErrorHandler);
 app.use(idErrorHandler);
 app.use(reqBodyErrorHandler);
